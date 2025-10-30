@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /*   outline: solid 1px red; */
+}
+
+:root {
+  --color-bg: rgb(9, 44, 9);
+  --primary-color: green;
+  --color-white: #fff;
+  --color-box-bg: rgb(5, 97, 5);
+  --color-light: rgb(255, 255, 255, 0.6);
+  --color-black: #000;
+  --transitions: all 400ms ease;
+  /* Width*/
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  background: #000;
+  font-size: 1.2rem;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background: #161515;
+  color: var(--color-white);
+  min-height: 100vh;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+/* ===== GENERAL STYLING ===== */
+.container {
+  width: var(--container-width-lg);
+}
+
+main {
+  margin-top: 6rem;
+}
+main h2,
+main h5 {
+  color: var(--color-light);
+  text-align: center;
+}
+
+main h2 {
+  color: var(--primary-color);
+  margin-bottom: 3rem;
+}
+a {
+  color: var(--primary-color);
+  transition: var(--transitions);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: 200px;
+  display: inline-block;
+  color: var(--primary-color);
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition: var(--transitions);
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  background: (--color-white);
+  color: var(--color-bg);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--color-bg);
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  main {
+    margin-top: 6rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  body {
+    padding: 1.5rem;
+  }
+  .container {
+    width: var(--container-width-sm);
+  }
+  main > h2 {
+    margin-bottom: 2rem;
+  }
+}

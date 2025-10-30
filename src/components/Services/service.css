@@ -1,0 +1,34 @@
+.service {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.services_rendered {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.service_item {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--primary-color);
+  background: var(--color-bg);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.service_item h3 {
+  margin-bottom: 1rem;
+  background: var(--primary-color);
+  padding: 2rem;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .services_rendered {
+    flex-wrap: wrap;
+  }
+}
