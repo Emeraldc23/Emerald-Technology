@@ -2,7 +2,9 @@ import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Service from "./components/Services/Service";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <About />
       <Experience />
       <Service />
+      <Portfolio />
+      <Testimonials />
     </>
   );
 }
