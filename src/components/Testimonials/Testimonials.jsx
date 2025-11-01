@@ -22,13 +22,16 @@ const Testimonials = () => {
 
   return (
     <main id="">
-      <div className="container">
+      <div className="container testimonials_container">
         <h5>Review from clients</h5>
         <h2>Testimonials</h2>
 
         <div>
           <div className="testimonial_card">
-            <img src={testimonials[current].img} />
+            <div className="testimonial_img">
+              <img src={testimonials[current].img} />
+            </div>
+
             <p className="test_img">{testimonials[current].name}</p>
             <p className="reviews">{testimonials[current].review}</p>
             <p className="reviews">{testimonials[current].profession}</p>
@@ -36,19 +39,20 @@ const Testimonials = () => {
           <div className="testimonial_dot">
             {testimonials.map((_, index) => (
               <span
+                key={index}
                 className={`dot ${index === current ? "active" : ""} `}
                 onClick={() => setCurrent(index)}
               ></span>
             ))}
           </div>
-          <div className="testimonial_btn">
+          {/* <div className="testimonial_btn">
             <a onClick={() => handleNext()} className="btn btn-transparent">
               Next
             </a>
             <a onClick={() => handlePrevious()} className="btn btn-primary">
               Previous
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>

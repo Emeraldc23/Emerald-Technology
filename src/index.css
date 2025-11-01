@@ -112,6 +112,16 @@ img {
   width: 100%;
   object-fit: cover;
 }
+input,
+textarea {
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  border: 0.5px solid var(--color-white);
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+}
 
 @media screen and (max-width: 1024px) {
   .container {
