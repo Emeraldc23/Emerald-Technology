@@ -2,6 +2,12 @@ import { useState, useEffect } from "react";
 import "../Testimonials/testimonials.css";
 import testimonials from "../../../data/testimonies";
 
+import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 const Testimonials = () => {
   const [current, setCurrent] = useState(0);
 
@@ -26,8 +32,16 @@ const Testimonials = () => {
         <h5>Review from clients</h5>
         <h2>Testimonials</h2>
 
-        <div>
-          <div className="testimonial_card">
+        <Swiper
+          modules={[Pagination]}
+          spaceBetween={40}
+          slidesPerView={1}
+          pagination={{ clickable: true }}
+          navigation={true}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
+          className="testimonial-swiper"
+        >
+          <SwiperSlide className="testimonial_card">
             <div className="testimonial_img">
               <img src={testimonials[current].img} />
             </div>
@@ -35,7 +49,7 @@ const Testimonials = () => {
             <p className="test_img">{testimonials[current].name}</p>
             <p className="reviews">{testimonials[current].review}</p>
             <p className="reviews">{testimonials[current].profession}</p>
-          </div>
+          </SwiperSlide>
           <div className="testimonial_dot">
             {testimonials.map((_, index) => (
               <span
@@ -53,7 +67,7 @@ const Testimonials = () => {
               Previous
             </a>
           </div> */}
-        </div>
+        </Swiper>
       </div>
     </main>
   );

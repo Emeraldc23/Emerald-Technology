@@ -15,7 +15,7 @@ const Header = () => {
           </h5>
         </div>
         <div className="cv-docs">
-          <a href={cv} className=" cv btn" download>
+          <a href={cv} className="cv btn" download>
             Download CV
           </a>
 

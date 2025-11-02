@@ -4,14 +4,14 @@
 }
 
 .testimonial_card {
-  max-width: 600px;
-  margin: 0 auto;
   display: flex;
   background: var(--color-bg);
   flex-direction: column;
+  text-align: center;
   align-items: center;
   padding: 1.5rem;
   border-radius: 10px;
+  margin: 0 auto;
 }
 .testimonial_img {
   width: 100px;
@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   border: 2px solid var(--primary-color);
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
 }
 .testimonial_img img {
   width: 100%;
@@ -32,11 +32,16 @@
   backface-visibility: hidden;
   -webkit-font-smoothing: antialiased;
 }
+/* .reviews {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+} */
 .testimonial_dot {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-top: 20px;
+  margin: 20px 0 5px;
 }
 .dot {
   width: 10px;

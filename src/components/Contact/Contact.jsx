@@ -3,15 +3,40 @@ import { MdEmail } from "react-icons/md";
 import "../Contact/contact.css";
 import { useState } from "react";
 
+const FORMSPARK_ACTION_URL = "https://submit-form.com/PKk65adHZ";
 const Contact = () => {
-  const [message, setMessage] = useState({ name: "", email: "", message: "" });
+  const [value, setValue] = useState({ name: "", email: "", message: "" });
+  const [submit, setSubmit] = useState("");
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setSubmit("sending...");
+    try {
+      await fetch(FORMSPARK_ACTION_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(value),
+      });
+      setValue({ name: "", email: "", message: "" });
+      setSubmit("Form Submitted");
+
+      setTimeout(() => {
+        setSubmit("");
+      }, 3000);
+    } catch (e) {
+      console.log(e);
+    }
+  }
   const contact_details = [
     {
       id: 1,
       icon: <MdEmail />,
       cl_title: "Email",
       cl_details: "maduagwumartins16@gmail.com",
-      msg: "Send a message",
+      msg: "https://mail.google.com/mail/u/0/#inbox?compose=new",
     },
     {
       id: 2,
@@ -25,11 +50,11 @@ const Contact = () => {
       icon: <FaWhatsapp />,
       cl_title: "WhatsApp",
       cl_details: "09039131265",
-      msg: "Send a message",
+      msg: "https://wa.me/+2349039131265?text=Hi!%20I'm%20interested%20in%20working%20with%20you.",
     },
   ];
   return (
-    <main id="contact" className="contact">
+    <main id="contact">
       <div className="container contact">
         <h5></h5>
         <h2>Contact Me</h2>
@@ -40,44 +65,48 @@ const Contact = () => {
                 <div className="contact_icon">{contact.icon}</div>
                 <h5>{contact.cl_title}</h5>
                 <h6>{contact.cl_details}</h6>
-                <a href="#">{contact.msg}</a>
+                <a href={contact.msg} target="_blank">
+                  send message
+                </a>
               </div>
             ))}
           </div>
           <div className="contact_form">
-            <form action="">
+            <form action="" onSubmit={handleSubmit}>
               <input
                 type="text"
                 name="name"
                 placeholder="Your Full Name"
-                value={message.name}
-                onChange={(e) =>
-                  setMessage({ ...message, name: e.target.value })
-                }
+                value={value.name}
+                onChange={(e) => setValue({ ...value, name: e.target.value })}
+                required
               />
 
               <input
                 type="email"
                 name="email"
                 placeholder="Your Email"
-                value={message.email}
-                onChange={(e) =>
-                  setMessage({ ...message, email: e.target.value })
-                }
+                value={value.email}
+                onChange={(e) => setValue({ ...value, email: e.target.value })}
+                required
               />
               <textarea
                 name="message"
                 rows="7"
                 placeholder="Your Message"
-                value={message.message}
+                value={value.message}
                 onChange={(e) =>
-                  setMessage({ ...message, message: e.target.value })
+                  setValue({ ...value, message: e.target.value })
                 }
+                required
               ></textarea>
               <div className="submit_btn">
                 <button type="submit" className="btn btn-primary">
                   Send Message
                 </button>
+                <p className="submit_msg" disabled={submit === "sending..."}>
+                  {submit}
+                </p>
               </div>
             </form>
           </div>

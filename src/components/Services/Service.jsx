@@ -8,7 +8,7 @@ const Service = () => {
         <h5>What I offer</h5>
         <h2>Services</h2>
       </div>
-      <secttion className="services_rendered">
+      <section className="services_rendered">
         {/* service 1 */}
         <div className="service_item">
           <h3>Web Development</h3>
@@ -25,7 +25,7 @@ const Service = () => {
             including microcontroller programming and PCB design.
           </p>
         </div>
-      </secttion>
+      </section>
     </main>
   );
 };

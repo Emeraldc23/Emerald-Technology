@@ -33,9 +33,9 @@ const Nav = () => {
       href: "#service",
     },
     {
-      id: "project",
+      id: "contact",
       icon: <FaEnvelope />,
-      href: "#project",
+      href: "#contact",
     },
   ];
   function handleActive(id) {
