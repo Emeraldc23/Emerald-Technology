@@ -54,7 +54,7 @@ const Contact = () => {
     },
   ];
   return (
-    <main id="contact">
+    <main id="contact" data-aos="zoom-in">
       <div className="container contact">
         <h5></h5>
         <h2>Contact Me</h2>

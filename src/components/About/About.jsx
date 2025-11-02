@@ -31,7 +31,11 @@ const About = () => {
   ];
 
   return (
-    <main className={`about ${visible ? "visible" : ""}`} id="about">
+    <main
+      className={`about ${visible ? "visible" : ""}`}
+      id="about"
+      data-aos="zoom-in"
+    >
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -52,14 +56,12 @@ const About = () => {
               </div>
             ))}
           </div>
-
           <p className="about-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            adipisci voluptatem error est doloribus quisquam animi quibusdam
-            numquam eaque laborum placeat, aliquam eum soluta a, ipsam cum
-            excepturi deleniti expedita?
+            My passion for frontend development is not only reflected in my
+            experience but also in the enthusiasm and dedication I bring to tech
+            projects. I have been opportuned to collaborate with prestigious
+            organizations, contributing to their success and growth.
           </p>
-
           <button className="about-btn">Let's Talk</button>
         </div>
       </div>

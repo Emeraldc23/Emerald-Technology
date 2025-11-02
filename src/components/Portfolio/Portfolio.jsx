@@ -3,7 +3,7 @@ import "../Portfolio/portfolio.css";
 
 const Portfolio = () => {
   return (
-    <main id="portfolio">
+    <main id="portfolio" data-aos="zoom-in-up">
       <div className="container portfolio">
         <h5> My Recent Work</h5>
         <h2 className="section__title">Portfolio</h2>

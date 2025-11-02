@@ -27,7 +27,7 @@ const Testimonials = () => {
   }
 
   return (
-    <main id="">
+    <main id="" data-aos="fade-right">
       <div className="container testimonials_container">
         <h5>Review from clients</h5>
         <h2>Testimonials</h2>

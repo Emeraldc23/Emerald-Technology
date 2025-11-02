@@ -1,3 +1,6 @@
+import { use, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
@@ -9,6 +12,17 @@ import Service from "./components/Services/Service";
 import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      offset: 100,
+      mirror: true,
+    });
+
+    window.addEventListener("load", AOS.refresh);
+  }, []);
+
   return (
     <>
       <div className="main-content">

@@ -14,7 +14,7 @@ const Experience = () => {
     { skill: "Basic Electronics", level: "Intermediate" },
   ];
   return (
-    <main id="portfolio">
+    <main id="portfolio" data-aos="zoom-in-up">
       <section className="container experience">
         <div className="experience_heading">
           <h5>WHAT SKILLS I HAVE</h5>

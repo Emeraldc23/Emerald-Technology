@@ -8,6 +8,13 @@
   background: var(--color-bg);
   padding: 2rem;
 }
+.ft_logo {
+  color: var(--color-white);
+  font-size: 2rem;
+}
+.ft_logo:hover {
+  color: var(--primary-color);
+}
 .footer_list {
   display: flex;
   justify-content: center;
@@ -20,7 +27,17 @@
   gap: 1rem;
   margin-bottom: 2rem;
 }
-
+.footer_social .socials a {
+  background: var(--color-black);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  transition: var(--transition);
+}
+.footer_social .socials a:hover {
+  opacity: 0.6;
+}
 @media screen and (max-width: 700px) {
   .footer_list {
     gap: 1rem;

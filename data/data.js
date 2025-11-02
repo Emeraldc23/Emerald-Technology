@@ -12,8 +12,7 @@ const portfolio = [
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: emeraldCity,
-    url: "",
-    gitHub: "",
+    gitHub: "https://github.com/Emeraldc23/EmeraldCity",
     live: "",
   },
   {
@@ -22,8 +21,7 @@ const portfolio = [
     description:
       "Designing and building basic electronic circuits and devices.",
     img: foodRecipe,
-    url: "",
-    gitHub: "",
+    gitHub: "https://github.com/Emeraldc23/React-Food-Recipe-",
     live: "",
   },
   {
@@ -32,8 +30,7 @@ const portfolio = [
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: recipe,
-    url: "",
-    gitHub: "",
+    gitHub: "https://github.com/Emeraldc23/Chef-Emerald",
     live: "",
   },
   {
@@ -42,8 +39,7 @@ const portfolio = [
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: assembly,
-    url: "",
-    gitHub: "",
+    gitHub: "https://github.com/Emeraldc23/Assembly-Game",
     live: "",
   },
   {
@@ -52,8 +48,7 @@ const portfolio = [
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: tenzies,
-    url: "",
-    gitHub: "",
+    gitHub: "https://github.com/Emeraldc23/TenziesGame",
     live: "",
   },
   {
@@ -62,8 +57,7 @@ const portfolio = [
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: project6,
-    url: "",
-    gitHub: "",
+    gitHub: "https://github.com/Emeraldc23/Emerald-Resturant",
     live: "",
   },
 ];

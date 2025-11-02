@@ -5,7 +5,7 @@ import Socials from "../socials/socials";
 
 const Header = () => {
   return (
-    <header className="header" id="home">
+    <header className="header" id="home" data-aos="fade-down">
       <div className="container header-container">
         <div className="introduction">
           <h5 className="hello">Hello, I'm</h5>
