@@ -1,4 +1,5 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Socials = () => {
   return (
@@ -12,7 +13,7 @@ const Socials = () => {
           <FaFacebook />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
+          <FaXTwitter />
         </a>
         <a
           href="https://instagram.com"
@@ -22,7 +23,7 @@ const Socials = () => {
           <FaInstagram />
         </a>
         <a
-          href="https://linkedin.com"
+          href="www.linkedin.com/in/martins-maduagwu-a3808a290"
           target="_blank"
           rel="noopener noreferrer"
         >
