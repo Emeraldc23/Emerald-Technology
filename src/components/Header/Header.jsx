@@ -29,7 +29,7 @@ const Header = () => {
         <div className="side-view">
           <Socials />
           <div className="scroll-down">
-            <a href="" className="scroll">
+            <a href="#contact" className="scroll">
               Scroll Down
             </a>
           </div>

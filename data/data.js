@@ -13,7 +13,7 @@ const portfolio = [
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: emeraldCity,
     gitHub: "https://github.com/Emeraldc23/EmeraldCity",
-    live: "",
+    live: "https://emerald-city-3wuz.vercel.app/",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const portfolio = [
       "Designing and building basic electronic circuits and devices.",
     img: foodRecipe,
     gitHub: "https://github.com/Emeraldc23/React-Food-Recipe-",
-    live: "",
+    live: "https://react-food-recipe-fawn.vercel.app/",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const portfolio = [
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: recipe,
     gitHub: "https://github.com/Emeraldc23/Chef-Emerald",
-    live: "",
+    live: "https://chef-emerald.vercel.app/",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const portfolio = [
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: assembly,
     gitHub: "https://github.com/Emeraldc23/Assembly-Game",
-    live: "",
+    live: "https://assembly-game-dusky.vercel.app/",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const portfolio = [
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: tenzies,
     gitHub: "https://github.com/Emeraldc23/TenziesGame",
-    live: "",
+    live: "https://tenzies-game-six-sage.vercel.app/",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const portfolio = [
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: project6,
     gitHub: "https://github.com/Emeraldc23/Emerald-Resturant",
-    live: "",
+    live: "https://emerald-resturant-ksni.vercel.app/",
   },
 ];
 
