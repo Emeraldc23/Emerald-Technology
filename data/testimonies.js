@@ -33,6 +33,7 @@ const testimonials = [
     name: "client 4",
     review:
       "Martins is reliable, skilled, and extremely dedicated. He transformed our ideas into a functional and visually appealing solution. His problem-solving ability and willingness to go the extra mile make him stand out. We’ll definitely work with him again.",
+
     profession: "Marketing Specialist",
     img: confidentwoman,
   },

@@ -46,9 +46,9 @@ const Testimonials = () => {
               <img src={testimonials[current].img} />
             </div>
 
-            <p className="test_img">{testimonials[current].name}</p>
+            <p className="test_img">{testimonials[current].profession}</p>
             <p className="reviews">{testimonials[current].review}</p>
-            <p className="reviews">{testimonials[current].profession}</p>
+            {/*   <p className="reviews">{testimonials[current].profession}</p> */}
           </SwiperSlide>
           <div className="testimonial_dot">
             {testimonials.map((_, index) => (

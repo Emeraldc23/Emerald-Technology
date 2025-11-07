@@ -32,11 +32,10 @@
   backface-visibility: hidden;
   -webkit-font-smoothing: antialiased;
 }
-/* .reviews {
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto;
-} */
+.test_img {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
 .testimonial_dot {
   display: flex;
   gap: 8px;
