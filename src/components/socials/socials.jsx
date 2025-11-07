@@ -6,17 +6,21 @@ const Socials = () => {
     <div>
       <div className="socials">
         <a
-          href="https://facebook.com"
+          href="https://facebook.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebook />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://x.com/@Emeraldc23"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaXTwitter />
         </a>
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/emerald_mc"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -8,7 +8,7 @@ const testimonials = [
     id: 1,
     name: "Client One",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac erat vel velit efficitur tincidunt.",
+      "I’m glad we chose Martins for our project. His understanding of HTML, CSS, JavaScript, and React was evident from day one. He solved challenges quickly and kept us updated at every stage. The final product was exactly what we envisioned—sometimes even better.",
     profession: "Web Developer",
     img: profilepics,
   },
@@ -16,7 +16,7 @@ const testimonials = [
     id: 2,
     name: "Client Two",
     review:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Martins brought a level of professionalism and creativity that truly elevated our project. He communicates clearly, delivers on time, and consistently ensures the work meets the highest standards. We were impressed by how he combined technical skill with user-focused design.",
     profession: "Graphic Designer",
     img: blackBizWoman,
   },
@@ -24,7 +24,7 @@ const testimonials = [
     id: 3,
     name: "Client Three",
     review:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Working with Martins was a seamless experience. He understood our requirements quickly and delivered a clean, responsive interface that exceeded our expectations. His attention to detail and commitment to getting things right made the entire process smooth. Highly recommended!",
     profession: "Project Manager",
     img: marketingSpecialist,
   },
@@ -32,7 +32,7 @@ const testimonials = [
     id: 4,
     name: "client 4",
     review:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Martins is reliable, skilled, and extremely dedicated. He transformed our ideas into a functional and visually appealing solution. His problem-solving ability and willingness to go the extra mile make him stand out. We’ll definitely work with him again.",
     profession: "Marketing Specialist",
     img: confidentwoman,
   },
