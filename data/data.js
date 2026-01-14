@@ -1,7 +1,7 @@
 import emeraldCity from "./port_images/Emeraldcity.png";
-import foodRecipe from "./port_images/foodRecipe.png";
+import reactDashboard from "./port_images/reactDashboard.png";
 import recipe from "./port_images/recipeImage.png";
-import tenzies from "./port_images/tenzies.png";
+import expenseTracker from "./port_images/expenseTracker.png";
 import assembly from "./port_images/assembly.png";
 import project6 from "./port_images/project_6.svg";
 
@@ -17,12 +17,12 @@ const portfolio = [
   },
   {
     id: 2,
-    title: "Food Recipe",
+    title: "React Dashboard",
     description:
       "Designing and building basic electronic circuits and devices.",
-    img: foodRecipe,
+    img: reactDashboard,
     gitHub: "https://github.com/Emeraldc23/React-Food-Recipe-",
-    live: "https://react-food-recipe-fawn.vercel.app/",
+    live: "https://dash-board-one-vtml.vercel.app/",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const portfolio = [
     title: "Expense Tracker",
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
-    img: tenzies,
+    img: expenseTracker,
     gitHub: "https://github.com/Emeraldc23/TenziesGame",
     live: "https://expense-tracker-925b9.web.app/",
   },
