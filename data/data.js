@@ -8,7 +8,7 @@ import project6 from "./port_images/project_6.svg";
 const portfolio = [
   {
     id: 1,
-    title: "website 1",
+    title: "EmeraldCity School",
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: emeraldCity,
@@ -17,7 +17,7 @@ const portfolio = [
   },
   {
     id: 2,
-    title: "Basic Electronics",
+    title: "Food Recipe",
     description:
       "Designing and building basic electronic circuits and devices.",
     img: foodRecipe,
@@ -26,7 +26,7 @@ const portfolio = [
   },
   {
     id: 3,
-    title: "website 3",
+    title: "Chef Ai",
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: recipe,
@@ -35,7 +35,7 @@ const portfolio = [
   },
   {
     id: 4,
-    title: "website 4",
+    title: "Assemby Game",
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: assembly,
@@ -44,16 +44,16 @@ const portfolio = [
   },
   {
     id: 5,
-    title: "website 5",
+    title: "Expense Tracker",
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: tenzies,
     gitHub: "https://github.com/Emeraldc23/TenziesGame",
-    live: "https://tenzies-game-six-sage.vercel.app/",
+    live: "https://expense-tracker-925b9.web.app/",
   },
   {
     id: 6,
-    title: "website 6",
+    title: "Emerald Resturant",
     description:
       "Creating responsive and user-friendly websites using modern web technologies.",
     img: project6,
